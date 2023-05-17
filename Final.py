@@ -9,7 +9,8 @@ print("1) Port Tarama")
 print("2) Mac Adresi Değiştirme")
 print("3) DDoS")
 print("4) Wifi bağlanan cihazların Mobil erişim noktasının şifresini gösterme ")
-print("5) Çıkış")
+print("5) Pyphisper")
+print("6) Çıkış")
 Secim=input("Seçiminizi Giriniz : ")
 
 
@@ -25,6 +26,9 @@ if(Secim=="3"):
 if (Secim=="4"):
     import Wifi
     print(Wifi)
-if (Secim=="5"):
+if  (Secim=="5"):
+    import Pyphisper
+    print(Pyphisper)
+if (Secim=="6"):
     {os.system('cls' if os.name == 'nt' else 'clear')}
 
