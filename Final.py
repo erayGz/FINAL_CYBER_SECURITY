@@ -9,7 +9,7 @@ print("1) Port Tarama")
 print("2) Mac Adresi Değiştirme")
 print("3) DDoS")
 print("4) Wifi bağlanan cihazların Mobil erişim noktasının şifresini gösterme ")
-print("6) Çıkış")
+print("5) Çıkış")
 Secim=input("Seçiminizi Giriniz : ")
 
 
