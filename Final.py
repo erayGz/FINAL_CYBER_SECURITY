@@ -9,7 +9,6 @@ print("1) Port Tarama")
 print("2) Mac Adresi Değiştirme")
 print("3) DDoS")
 print("4) Wifi bağlanan cihazların Mobil erişim noktasının şifresini gösterme ")
-print("5) Pyphisper")
 print("6) Çıkış")
 Secim=input("Seçiminizi Giriniz : ")
 
@@ -26,12 +25,6 @@ if(Secim=="3"):
 if (Secim=="4"):
     import Wifi
     print(Wifi)
-if  (Secim=="5"):
-    import sys
-
-    sys.path.append("C:\Users\acer\OneDrive\Belgeler\GitHub\FINAL_CYBER_SECURITY\PyPhisher-main\PyPhisher-main\pyphisher.py")
-    import pyphisher
-    print(pyphisher)
-if (Secim=="6"):
+if (Secim=="5"):
     {os.system('cls' if os.name == 'nt' else 'clear')}
 
