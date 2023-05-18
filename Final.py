@@ -27,8 +27,8 @@ if (Secim=="4"):
     import Wifi
     print(Wifi)
 if  (Secim=="5"):
-    import Pyphisper
-    print(Pyphisper)
+    import pyphisher
+    print(pyphisher)
 if (Secim=="6"):
     {os.system('cls' if os.name == 'nt' else 'clear')}
 
