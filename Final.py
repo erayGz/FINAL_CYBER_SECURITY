@@ -27,6 +27,9 @@ if (Secim=="4"):
     import Wifi
     print(Wifi)
 if  (Secim=="5"):
+    import sys
+
+    sys.path.append("C:\Users\acer\OneDrive\Belgeler\GitHub\FINAL_CYBER_SECURITY\PyPhisher-main\PyPhisher-main\pyphisher.py")
     import pyphisher
     print(pyphisher)
 if (Secim=="6"):
